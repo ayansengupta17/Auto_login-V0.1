@@ -1,4 +1,4 @@
-# auto_login
+# Auto_login for IIT Bombay
 This is a small code snippet, for auto login for guys staying in IIT Bombay.
 
 ## Dependencies

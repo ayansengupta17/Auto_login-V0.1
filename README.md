@@ -3,17 +3,17 @@ This is a small code snippet, for auto login for guys staying in IIT Bombay.
 
 ## Dependencies
 
-* Python 2.7
-* Selenium python library
+* [Python 2.7](https://www.python.org/download/releases/2.7/)
+* [Selenium python library](https://pypi.python.org/pypi/selenium)
 * PhantomJS (optional)
-* Chrome Webdriver
+* [Chrome Webdriver](https://sites.google.com/a/chromium.org/chromedriver/downloads)
 
 I am against using PhantomJS with python, but anyway I added a line, so anyone can use it. The easiest way to use PhantomJS in python is via Selenium. The simplest installation method is
 
 * Install NodeJS
 * Using Node's package manager install phantomjs: npm -g install phantomjs-prebuilt
 * install selenium (in your virtualenv, if you are using that)
-
+To know more about it check [this link](https://dzone.com/articles/python-testing-phantomjs)
 You can use, any other webdriver like firefox webdriver, or your choice of webdriver.
 
 

@@ -1,11 +1,17 @@
 # Auto_login for IIT Bombay
-This is a small code snippet, for auto login for guys staying in IIT Bombay.
+This is a small code snippet, for automatic login in internet.iitb.ac.in for guys staying in IIT Bombay. This code can be modified and used for many such logins. There are two python files listed above, namely:
+* auto_login_ldap.py
+* auto_login_ldap_phantom.py
+
+auto_login_ldap,py uses chrome browser, i.e. a chrome browser will pop up and it will autologin and browser will close. It happens in a span of 3 secs.
+
+auto_login_ldap_phantom.py uses PhantomJS. Here no browser will pop up, It will just show the status in the terminal. If the user is not logged in, then it will automatically login the user.
 
 ## Dependencies
 
 * [Python 2.7](https://www.python.org/download/releases/2.7/)
 * [Selenium python library](https://pypi.python.org/pypi/selenium)
-* PhantomJS (optional)
+* PhantomJS (If you use auto_login_ldap_phantom.py)
 * [Chrome Webdriver](https://sites.google.com/a/chromium.org/chromedriver/downloads)
 
 I am against using PhantomJS with python, but anyway I added a line, so anyone can use it. The easiest way to use PhantomJS in python is via Selenium. The simplest installation method is

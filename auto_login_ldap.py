@@ -52,7 +52,11 @@ except:
     u.send_keys(username)
     p.send_keys(password)
     driver.find_element_by_xpath("/html/body/table/tbody/tr[1]/td/table/tbody/tr/td[3]/form/table/tbody/tr[2]/td[3]/input").click()
-    print "Login Sucessful"
+    if driver.find_elements_by_xpath("//*[contains(., 'Login Failed!')]"):
+        print "Bad Username or Password"
+    else:
+        print "Login Sucessful"
+
 
 
 
